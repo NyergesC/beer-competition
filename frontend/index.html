@@ -1,12 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>This is FRONTEND</title>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Craft Beer</title>
+
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+		<script src="script.js"></script>
+
+		<link rel="stylesheet" href="style.css">
+
+<!-- 	SWIPER -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+<!-- FA-STAR -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+
 </head>
 <body>
-	<div id="root"></div>
+	<div id="root">
+		<section class="landing">
+			<div class="backround"></div>
+			<div id="main">
+				<div id="box1"></div>	
+				<div id="box2">
+					<div id="text">
+						<h1>Craft Beer</h1>
+						<h1>Craft Beer</h1>
+						<h3>Life is Brewtiful...</h3>						
+					</div>
+					<div class="landingBtn">
+						<a href="#container">Drink Menu</a>
+					</div>
+				</div>
+				<div id="box3">
+					<div id="container-landing">
+						 <div id="logo">
+							<img src="./img/logo.white.png" alt="logo" width="60">
+						</div>
+						<nav id="menu">
+							<ul>
+								<li><a class="nav-link1" href="#">Home</a></li>
+								<li><a class="nav-link1" href="#second">About Us</a></li>
+								<li><a class="nav-link1" href="#container">Contact</a></li>
+								<li><a class="nav-link1" href="#second">Blog</a></li>
+								<li class="mukodj"><a class="nav-link2" href="#container">Sign in</a></li>
+							</ul>
+						</nav>
+						<div class="burger">
+							<div class="line1"></div>
+							<div class="line2"></div>
+							<div class="line3"></div>
+						</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="second">
+			<div class="passion">
+				<div class="passion-text">
+					<h1>Our passion</h1>
+					<h3>Beer is a love letter to the beer of the world. Our goal is to bring some of <br> that world, and that love, to you all.</h3>		
+				</div>				
+			</div>
+		</section>
+		<section id="container" class="swiper mySwiper">
+			<div id="wrapper" class="swiper-wrapper"></div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+		<footer>
+			<p>@Powered by Coffee and Cat videos</p>
+		</footer>
 </body>
 </html>
